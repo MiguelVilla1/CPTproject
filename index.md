@@ -3,13 +3,55 @@ layout: default
 title: Student Blog
 ---
 
-
-## Build you Home Page here 
-This is about your journey. Start now!!!
-
-## Overview of Hacks, Study and Tangibles
-Blogging in GitHub pages is a way to learn and code at the same time. 
-
-- Plans, Lists, [Scrum Boards](https://clickup.com/blog/scrum-board/) help you to track key events, show progress and record time.  Effort is a big part of your class grade.  Show plans and time spent!
-- [Hacks(Todo)](https://levelup.gitconnected.com/six-ultimate-daily-hacks-for-every-programmer-60f5f10feae) enable you to stay in focus with key requirements of the class.  Each Hack will produce Tangibles.
-- Tangibles or [Tangible Artifacts](https://en.wikipedia.org/wiki/Artifact_(software_development)) are things you accumulate as a learner and coder. 
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Webpage Title</title>
+     <style>
+        body {
+            background-color: #f39c12;
+            margin: 0;
+            font-family: 'Impact', fantasy;
+            color: #ecf0f1;
+            text-align: center;
+            padding: 50px; 
+        }
+        .textbox {
+            background: rgba(0, 0, 0, 0.5);
+            border: 1px solid #ecf0f1;
+            padding: 20px;
+            margin: 20px;
+            border-radius: 10px;
+            max-width: 600px;
+            margin: auto;
+        }
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+        }
+        p {
+            font-size: 1.2em;
+            line-height: 1.5;
+        }
+        .button-container {
+            display: flex;
+            justify-content: center;
+        }
+        .button {
+            margin: 10px;
+            padding: 10px 20px;
+            font-size: 1em;
+            text-decoration: none;
+            color: #f1c40f;
+            background-color: #3498db;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="textbox">
+        <h1>Welcome to the Higher or Lower Number Guessing Game!</h1>      
+        <div class="button-container">
+            <a href="CPTgame" class="button">PLAY</a>

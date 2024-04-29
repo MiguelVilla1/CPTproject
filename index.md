@@ -54,4 +54,4 @@ title: Student Blog
     <div class="textbox">
         <h1>Welcome to the Higher or Lower Number Guessing Game!</h1>      
         <div class="button-container">
-            <a href="CPTgame" class="button">PLAY</a>
+            <a href="CPTgame.py" target="_blank"><button>PLAY</button></a>
